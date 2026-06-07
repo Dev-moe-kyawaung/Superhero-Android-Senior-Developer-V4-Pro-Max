@@ -95,3 +95,16 @@ assets/
   screenshots/
 .github/
   workflows/
+
+git clone https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v4_pro_max.git
+cd superhero_android_developer_v4_pro_max
+
+2. Install dependencies
+
+flutter pub get
+
+Run locally
+flutter run -d chrome
+Build for Web
+flutter build web --release --base-href "/superhero_android_developer_v4_pro_max/"
+
