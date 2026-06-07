@@ -1,0 +1,40 @@
+superhero_android_developer_v4_pro_max/
+├── lib/
+│   ├── main.dart
+│   ├── app/
+│   │   └── superhero_portfolio_app.dart
+│   ├── data/
+│   │   └── sample_projects.dart
+│   ├── models/
+│   │   └── project.dart
+│   ├── features/
+│   │   ├── home/
+│   │   │   └── home_page.dart
+│   │   └── projects/
+│   │       └── project_detail_page.dart
+│   └── shared/
+│       ├── theme/
+│       │   └── app_theme.dart
+│       ├── utils/
+│       │   └── url_service.dart
+│       └── widgets/
+│           ├── animated_project_card.dart
+│           ├── glass_card.dart
+│           ├── hero_banner.dart
+│           ├── power_stats_row.dart
+│           ├── screenshot_carousel.dart
+│           ├── section_header.dart
+│           └── tech_stack_cloud.dart
+├── assets/
+│   ├── images/
+│   └── screenshots/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── pubspec.yaml
+├── README.md
+├── analysis_options.yaml
+├── .gitignore
+├── LICENSE
+└── web/
+    └── index.html
