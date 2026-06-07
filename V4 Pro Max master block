@@ -1,0 +1,111 @@
+# SUPERHERO ANDROID DEVELOPER — V4 PRO MAX
+# MASTER REPO INDEX + BUILD TRACKER
+
+REPO ROOT
+superhero_android_developer_v4_pro_max/
+
+ROOT FILES
+[ ] pubspec.yaml
+[ ] README.md
+[ ] analysis_options.yaml
+[ ] .gitignore
+[ ] LICENSE
+
+WEB
+[ ] web/index.html
+
+ASSETS
+[ ] assets/images/
+[ ] assets/screenshots/
+    [ ] video_1.png
+    [ ] video_2.png
+    [ ] video_3.png
+    [ ] commerce_1.png
+    [ ] commerce_2.png
+    [ ] commerce_3.png
+    [ ] health_1.png
+    [ ] health_2.png
+    [ ] health_3.png
+    [ ] portfolio_1.png
+    [ ] portfolio_2.png
+    [ ] portfolio_3.png
+    [ ] dashboard_1.png
+    [ ] dashboard_2.png
+    [ ] dashboard_3.png
+
+GITHUB ACTIONS
+[ ] .github/
+    [ ] workflows/
+        [ ] deploy.yml
+
+LIB
+[ ] lib/main.dart
+[ ] lib/app/
+    [ ] superhero_portfolio_app.dart
+[ ] lib/data/
+    [ ] sample_projects.dart
+[ ] lib/models/
+    [ ] project.dart
+
+FEATURES
+[ ] lib/features/home/
+    [ ] home_page.dart
+[ ] lib/features/projects/
+    [ ] project_detail_page.dart
+
+SHARED
+[ ] lib/shared/theme/
+    [ ] app_theme.dart
+[ ] lib/shared/utils/
+    [ ] url_service.dart
+[ ] lib/shared/widgets/
+    [ ] animated_project_card.dart
+    [ ] glass_card.dart
+    [ ] hero_banner.dart
+    [ ] power_stats_row.dart
+    [ ] screenshot_carousel.dart
+    [ ] section_header.dart
+    [ ] tech_stack_cloud.dart
+
+BUILD ORDER
+1. Create folders.
+2. Paste root files.
+3. Paste web/index.html.
+4. Add assets folders and screenshots.
+5. Paste models and sample data.
+6. Paste shared theme, utils, and widgets.
+7. Paste feature pages.
+8. Paste app bootstrap files.
+9. Paste deploy.yml.
+10. Paste README.md.
+11. Run flutter pub get.
+12. Run flutter run -d chrome.
+13. Run flutter build web --release --base-href "/superhero_android_developer_v4_pro_max/"
+14. Push to main.
+15. Verify GitHub Actions deploy.
+16. Open the live GitHub Pages URL.
+
+LAUNCH CHECKS
+[ ] Base href matches repo name.
+[ ] All screenshot filenames match sample_projects.dart.
+[ ] GitHub Pages source is set to GitHub Actions.
+[ ] Workflow completes green.
+[ ] Live site loads on desktop.
+[ ] Live site loads on mobile.
+[ ] Project detail pages open.
+[ ] Screenshot carousel renders.
+[ ] External links open correctly.
+[ ] Refresh works on nested routes or detail pages.
+
+LIVE URL
+https://YOUR_GITHUB_USERNAME.github.io/superhero_android_developer_v4_pro_max/
+
+WORKFLOW PATH
+.github/workflows/deploy.yml
+
+NOTES
+- Keep the repo name and --base-href identical.
+- Use feature-first organization with shared widgets.
+- Use LayoutBuilder and MediaQuery for responsive behavior.
+- Keep assets declared in pubspec.yaml.
+- GitHub Pages should be configured to publish from GitHub Actions.
