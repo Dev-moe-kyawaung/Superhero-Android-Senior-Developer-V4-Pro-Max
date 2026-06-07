@@ -25,8 +25,8 @@ Built to showcase flagship Android projects, measurable impact, premium motion, 
 
 ## Live Site
 
-- **Portfolio:** `https://YOUR_GITHUB_USERNAME.github.io/superhero_android_developer_v4_pro_max/`
-- **Repository:** `https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v4_pro_max`
+- **Portfolio:** `https://Dev-Moe-kyawaung.github.io/superhero_android_developer_v4_pro_max/`
+- **Repository:** `https://github.com/Dev-Moe-kyawaung/superhero_android_developer_v4_pro_max`
 
 ## Featured Projects
 
@@ -96,7 +96,7 @@ assets/
 .github/
   workflows/
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v4_pro_max.git
+git clone https://github.com/Dev-Moe-kyawaung/superhero_android_developer_v4_pro_max.git
 cd superhero_android_developer_v4_pro_max
 
 2. Install dependencies
