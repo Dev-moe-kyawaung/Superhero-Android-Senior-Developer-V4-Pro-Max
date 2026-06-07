@@ -1,0 +1,23 @@
+name: superhero_android_developer_v4_pro_max
+description: Superhero Android Senior Developer Portfolio V4 Pro Max
+publish_to: "none"
+version: 4.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/screenshots/
