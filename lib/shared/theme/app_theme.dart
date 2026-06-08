@@ -16,9 +16,10 @@ class AppTheme {
         secondary: secondary,
         surface: surface,
       ),
-      cardThemeData: CardTheme(
-        color: surface,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28)),
+      cardTheme: CardTheme(
+  color: surface,
+  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28)),
+),
       ),
       textTheme: const TextTheme(
         displayLarge: TextStyle(color: Colors.white, fontWeight: FontWeight.w900),
